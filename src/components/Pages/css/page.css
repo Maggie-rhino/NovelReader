@@ -1,0 +1,63 @@
+
+.dark-margin {
+    background-color: #001529;
+    color: #fff;
+  }
+  
+  .light-margin {
+    background-color: #fff;
+    color: #333;
+  }
+
+
+
+.connect-image{
+    background-image: url('../../../../public/night.jpg');
+    height: 35vh;
+    background-position: center center; /* Position the background image */
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+
+.content_container {
+    width: 85%;
+    margin: auto; /* Center horizontally */
+    border: 1px solid rgb(67, 63, 63);
+    position: relative;
+    z-index: 2;
+    top:-50px;
+    background-color:  rgb(0, 22, 41);
+    border-radius: 10px;
+}
+
+.dark {
+    background-color: rgb(38, 45, 56);
+    color: #fff;
+  }
+  
+  .light {
+    background-color: #fff;
+    color: #333;
+  }
+
+
+.novel_content {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items horizontally at the center */
+    justify-content: center; /* Align items vertically at the center */
+    margin: 5%;
+    width: 80%;
+}
+
+.article-card {
+    border: none !important;
+    box-shadow: none !important; /* Removes any shadow */
+}

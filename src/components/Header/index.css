@@ -1,0 +1,18 @@
+
+
+.sticky-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the menu spans the full width */
+    z-index: 1000; /* Keeps it above other elements */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual separation */
+}
+
+
+.ant-menu-item-selected,
+.ant-menu-item:hover {
+    background-color: transparent !important; /* Remove background */
+    color: royalblue !important; /* Customize text color */
+    text-decoration: none !important; /* Remove underline */
+}

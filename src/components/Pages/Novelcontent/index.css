@@ -1,0 +1,43 @@
+
+.post-meta {
+    display: flex;
+    justify-content: space-between; /* Aligns items to opposite ends */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 10px;
+}
+
+.source, .tag {
+    display: flex;
+    align-items: center;
+}
+
+.source i, .tag i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+a {
+    color: inherit; /* Optional: inherits color from parent */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+
+.prev-next {
+    display: flex;
+    justify-content: space-between; /* Aligns previous and next links at opposite ends */
+    padding: 10px;
+}
+
+.prev a, .next a {
+    color: inherit; /* Inherit color, optional */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Optional: Make links stand out */
+}
+
+.prev a:hover, .next a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+.link-hover:hover {
+    color: #1d72b8; /* Change to the desired hover color */
+    /*text-decoration: underline; !* Optional: add underline on hover *!*/
+}
